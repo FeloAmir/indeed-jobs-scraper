@@ -1,0 +1,20 @@
+---
+
+```text
+# Python environment
+venv/
+env/
+.venv/
+
+# Operational files (Avoid uploading the scraped data)
+indeed_jobs.csv
+indeed_checkpoint.csv
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS files
+.DS_Store
+Thumbs.db
